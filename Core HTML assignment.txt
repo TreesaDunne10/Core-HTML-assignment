@@ -1,0 +1,389 @@
+*****Core HTML Assignment*****
+
+Question 1. Build a simple webpage that displays text as shown in the below image.
+ 
+Answer 1. <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>My Webpage</title>
+          </head>
+          <body>
+              <p><b>This text will be bolded.</b></p>
+              <p><i>This text will be italic.</i></p>
+              <p><u>This text will be underlined.</u></p>
+              <p><mark>This text will be highlighted</mark></p>
+              <p>This is normal text <sup>This will be super scripted</sup> This is normal again</p>
+              <p>This is normal text <sub>This text will be subscripted</sub></p>
+              <p>Normal text <small>Small Text</small></p>
+              <p><del>This text will be deleted</del></p>
+          </body>
+          </html>
+
+
+Question 2. Build a simple webpage that helps user navigate different web development-related websites. Note: On clicking the hyperlink the web pages
+            should open in a new tab. Below is a reference image.
+
+Answer 2. <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>My Webpage</title>
+          </head>
+          <body>
+              <h1>Navigate Me:</h1>
+              <p>Take me to <a href="https://pwskills.com/">PW Skills</a> to buy a course.</p>
+              <p>Take me to <a href="https://developer.mozilla.org/en-US/">MDN docs</a> to know more about Web Development.</p>
+              <p>Take me to <a href="https://lab.pwskills.com">PW Skills Lab</a> to practice live coding.</p>
+          </body>
+          </html>
+
+
+Question 3. Build a simple blog web page with 3 pages home, web development, and web design. Each page must contain hyperlinks to other pages in the top,
+            a heading of the page topic and a paragraph of information. For the home page you can add some information about yourself.
+
+Answer 3. <!--Home.index-->
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Home</title>
+          </head>
+          <body>
+              <div>
+                  <a href="home.html">Home</a>
+                  <a href="webdevelopment.html">Web Development</a>
+                  <a href="webdesign.html">Web Design</a>
+              </div>
+              <div>
+                  <h1>Home</h1>
+                  <p>
+                  In the ever-evolving landscape of technology, Full Stack Web Development has emerged as a very important skill set, allowing developers 
+                  to navigate both the front-end and back-end of web apllication. This comprehensive approach has become essential in the creation of 
+                  dynamic, responsive, and feature-rich websites. Full Stack Web Development refers to the practice of proficiently handling both the 
+                  client-side(front-end) and server-side(back-end) development of web applications. A Full Stack Developer possesses a diverse skill set,
+                  enabling them to work with various technologies, databases, frameworks and libraries.
+                  </p>
+              </div>
+          </body>
+          </html>
+
+
+          <!--Webdevelopment.index-->
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Web Development</title>
+          </head>
+          <body>
+              <div>
+                  <a href="home.html">Home</a>
+                  <a href="webdevelopment.html">Web Development</a>
+                  <a href="webdesign.html">Web Design</a>
+              </div>
+              <div>
+                  <h1>Web Development</h1>
+                  <p>
+                  Web Development is a dynamic and ever-expanding field, offering endless opportunities for creativity and innovation. As we navigate 
+                  the digital frontier, staying informed about emerging technologies, adopting best practices, and nuturing a passion for problem-solving 
+                  are key to thriving in this exciting landscape. Whether you're a seasoned developer or just embarking on this journey, the world of 
+                  web development invites you to explore, create, and contribute to the evolving tapestry of the internet.
+                  </p>
+              </div>
+          </body>
+          </html>
+
+
+          <!--Webdesign.index-->
+
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Web Design</title>
+          </head>
+          <body>
+              <div>
+                  <a href="home.html">Home</a>
+                  <a href="webdevelopment.html">Web Development</a>
+                  <a href="webdesign.html">Web Design</a>
+              </div>
+              <div>
+                  <h1>Web Design</h1>
+                  <p>
+                  Web Design is a harmonious blend of artistic expression and user-centric functionality. As designers, we have the power to shape digital
+                  landscapes, leaving lasting impressions on users worldwide. Whether you're a seasoned designer or just beginning your journey, the world
+                  of web design invites you to explore, experiment and create experiences that captivate and inspire. Happy Designing!
+                  </p>
+              </div>
+          </body>
+          </html>
+
+
+Question 4. Create an ordered list of HTML tags. Each list item must include the tag name and some information about the tag.
+
+Answer 4. :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>List of Tags</h1>
+    <ol>
+        <li>h1 : It defines the level 1 heading</li>
+        <li>p : It defines the paragraph of text</li>
+        <li>ol : It defines the ordered list</li>
+        <li>ul : It defines the unordered list</li>
+        <li>br : It defines the line break</li>
+        <li>hr : It defines the horizontal rule</li>
+    </ol>
+</body>
+</html>
+
+
+Question 5. Create a description list of full stack web development tech stack, using the <dl> tag. Each term should be a tech stack name and each description
+ should be a brief explanation of what the tech stack is used for.
+
+Answer 5. :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Full Stack Web DevelopmentTech Stack:</h1>
+    <dl>
+        <dt>HTML</dt>
+        <dd>
+            HTML(HyperText Markup Language) provides the basic structure for web content, consists of elemnts represented by tags, which define the purpose of each             part of the document.
+        </dd>
+        <dt>CSS</dt>
+        <dd>
+            CSS(Cascading Style Sheet) is used to style and format HTML elements. It defines the presentation, layout, and design of a web page.
+        </dd>
+        <dt>JavaScript</dt>
+        <dd>
+            Essential for client-side scripting and dynamic interactions.
+        </dd>
+        <dt>React js</dt>
+        <dd>
+            Developed by Facebook, commonly used for building user interfaces.
+        </dd>
+        <dt>Node js</dt>
+        <dd>
+            Javascript runtime for server-side development, using the same language as front-end.
+        </dd>
+        <dt>Express js</dt>
+        <dd>
+            A minimal and flexible node.js web application framework.
+        </dd>
+        <dt>MongoDB</dt>
+        <dd>
+            A document-oriented NoSQL database.
+        </dd>
+        <dt>Git</dt>
+        <dd>
+            Widely used for tracking changes in source code during software development.
+        </dd>
+    </dl>
+</body>
+</html>
+
+
+Question 6. Create an oredered list of the full stack web development tech stack HTML, CSS and JS. For each tech stack, create a table that lists the tech stack name, its primary use cases, and some key features or benefits. 
+
+Answer 6. :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>
+            <h2>HTML</h2>
+            <table border="1">
+                <tr>
+                    <th>Primary Use Cases</th>
+                    <th>Key Features</th>
+                </tr>
+                <tr>
+                    <td>Structure and markup of web content</td>
+                    <td>
+                        <ul>
+                            <li>Defines document structure with tags</li>
+                            <li>Provides semantic meaning to content</li>
+                            <li>Supports various elements for text, images, etc.</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h2>CSS</h2>
+            <table border="1">
+                <tr>
+                    <th>Primary Use Cases</th>
+                    <th>Key Features</th>
+                </tr>
+                <tr>
+                    <td>Styling and formatting of HTML elements</td>
+                    <td>
+                        <ul>
+                            <li>Selectors for targeting HTML elements</li>
+                            <li>Box model for layout and spacing</li>
+                            <li>Flexbox and grid for responsive design</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </li>
+        <li>
+            <h2>JavaScript</h2>
+            <table border="1">
+                <tr>
+                    <th>Primary Use cases</th>
+                    <th>Key Features</th>
+                </tr>
+                <tr>
+                    <td>Client-side scripting, adding interactivity</td>
+                    <td>
+                        <ul>
+                            <li>Manipulates HTML and CSS dynamically</li>
+                            <li>Event handling for user interactions</li>
+                            <li>AJAX for asynchronous communication with servers</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </li>
+    </ol>
+</body>
+</html>
+
+
+Question 7. Build a complex nested list structure representing a multi-level table of contents. Use unordered lists (<ul>) and list items (<li>) with inline-block styling to create a structured layout. Apply formatting tags to enhance the presentation of list items.
+
+Answer 7. :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Table of Contents</h1>
+    <ul>
+        <li><a href="#">Part 1 : Introduction</a></li>
+        <li><a href="#">Part 2 : Getting Started</a></li>
+        <ul>
+            <li><a href="#">2.1 Installing the software</a></li>
+            <li><a href="#">2.2 Creating a new project</a></li>
+            <ul>
+                <li><a href="#">2.2.1 Project templates</a></li>
+                <li><a href="#">2.2.2 Customizing settings</a></li>
+            </ul>
+            <li><a href="#">2.3 Exploring the interface</a></li>
+            <ul>
+                <li><a href="#">2.3.1 Toolbar features</a></li>
+                <li><a href="#">2.3.2 Panel layout</a></li>
+                <ul>
+                    <li><a href="#">2.3.2.1 Docking panels</a></li>
+                    <li><a href="#">2.3.2.2 Tabbed interface</a></li>
+                </ul>
+            </ul>
+        </ul>
+        <li><a href="#">Part 3 : Advanced Topic</a></li>
+        <ul>
+            <li><a href="#">3.1 Working with plugins</a></li>
+            <ul>
+                <li><a href="#">3.1.1 Installing plugins</a></li>
+                <li><a href="#">3.1.2 Plugin configuration</a></li>
+            </ul>
+            <li><a href="#">3.2 Customizing the UI</a></li>
+            <ul>
+                <li><a href="#">3.2.1 Changing themes</a></li>
+                <li><a href="#">3.2.2 Configuring shortcuts</a></li>
+            </ul>
+            <li><a href="#">3.3 Optimizing performance</a></li>
+            <ul>
+                <li><a href="#">3.3.1 Caching strategies</a></li>
+                <li><a href="#">3.3.2 Resources minification</a></li>
+            </ul>
+        </ul>
+        <li><a href="#">Part 4 : Conclusion</a></li>
+    </ul>
+</body>
+</html>
+
+
+Question 8. Build a complex nested list structure representing a multi-level table of contents. Use unordered lists (<ul>) and list items (<li>) with inline-block styling to create a structured layout. Apply formatting tags to enhance the presentation of list items.
+
+Answer 8. :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conference Schedule</h1>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Room 1</th>
+            <th>Room 2</th>
+            <th>Room 3</th>
+            <th>Room 4</th>
+        </tr>
+        <tr>
+            <td rowspan="3">9:00 AM - 10:00 AM</td>
+            <td rowspan="2">Keynote</td>
+            <td>Session A</td>
+            <td>Session B</td>
+            <td rowspan="3">Session C</td>
+        </tr>
+        <tr>
+            <td>session D</td>
+            <td>Session E</td>
+        </tr>
+        <tr>
+            <td>10:30 AM - 11:30 AM</td>
+            <td colspan="2">Session F</td>
+        </tr>
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <td colspan="4">Lunch Break</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1:00 PM - 2:00 PM</td>
+            <td>Session G</td>
+            <td rowspan="2">Session H</td>
+            <td>Session I</td>
+            <td>Session J</td>
+        </tr>
+        <tr>
+            <td>Session K</td>
+            <td>Session L</td>
+            <td>Session M</td>
+        </tr>
+    </table>
+</body>
+</html>
